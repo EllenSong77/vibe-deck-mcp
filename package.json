@@ -1,7 +1,7 @@
 {
   "name": "vibe-deck-mcp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A zero-cost MCP plugin that turns your LLM into a top-tier visual designer for presentations, social media carousels, infographics, and more.",
   "main": "build/index.js",
   "type": "module",
   "bin": {

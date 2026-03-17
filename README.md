@@ -2,14 +2,14 @@
 
 **Limitless Vibe. Zero Templates.**
 
-A revolutionary Model Context Protocol (MCP) plugin that turns your local LLM (Claude/Gemini) into a top-tier visual designer for Xiaohongshu, Instagram, and presentations.
+A revolutionary Model Context Protocol (MCP) plugin that turns your local LLM (Claude/Gemini) into a top-tier visual designer for presentations, infographics, dynamic social media carousels, and elegant reports.
 
 Unlike traditional generators that force text into rigid templates, **Vibe Deck leverages the LLM's coding ability to write stunning, custom HTML/CSS on the fly based on your content's topic and mood.** The MCP server simply rendering this dynamic code into ultra-crisp, high-definition PNGs using a headless browser.
 
 ## 🌟 Why Vibe Deck?
 
 1. **Limitless Styles:** Want Cyberpunk? Minimalist Zen? Y2K? Financial professional? Just ask the AI. It writes the CSS gradients, positioning, and typography rules in real-time.
-2. **True Design Intelligence:** The provided `SKILL.md` (System Prompt) trains the AI to act as an Art Director—enforcing elegant padding, perfect line-heights, dramatic typography scaling, and XiaoHongShu-style pagination (Cover → Pain Point → Details → CTA).
+2. **True Design Intelligence:** The provided `SKILL.md` (System Prompt) trains the AI to act as an Art Director—enforcing elegant padding, perfect line-heights, dramatic typography scaling, and structured storytelling pagination (Cover → Problem → Detail → CTA).
 3. **Zero Server Cost:** Uses your local machine's CPU to render via Puppeteer.
 
 ---
