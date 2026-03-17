@@ -14,9 +14,17 @@ English | [中文说明](./README_zh.md)
 
 *(以下配图并非预设模板，而是大模型在接收到文本后，自己在本地编写出的 HTML/CSS 并在后台渲染出的效果图！)*
 
+#### 风格 1：赛博朋克 / 科技极客风 (暗色主题)
 <div align="center">
-  <img src="docs/assets/cover.png" width="45%" alt="Cover Page">
-  <img src="docs/assets/content.png" width="45%" alt="Content Page">
+  <img src="docs/assets/cover.png" width="30%" alt="Cover Page">
+  <img src="docs/assets/content.png" width="30%" alt="Content Page">
+  <img src="docs/assets/cta.png" width="30%" alt="CTA Page">
+</div>
+
+#### 风格 2：Apple Glass / 极简留白 (浅色主题)
+<div align="center">
+  <img src="docs/assets/cover-light.png" width="45%" alt="Light Cover Page">
+  <img src="docs/assets/content-light.png" width="45%" alt="Light Content Page">
 </div>
 
 ---

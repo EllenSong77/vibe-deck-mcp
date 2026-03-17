@@ -14,9 +14,17 @@ A revolutionary Model Context Protocol (MCP) plugin that turns your local LLM (C
 
 *(These images were natively rendered from HTML/CSS entirely written by the LLM itself dynamically, without any fixed templates!)*
 
+#### Style 1: Cyberpunk / Startup Pitch (Dark Theme)
 <div align="center">
-  <img src="docs/assets/cover.png" width="45%" alt="Cover Page">
-  <img src="docs/assets/content.png" width="45%" alt="Content Page">
+  <img src="docs/assets/cover.png" width="30%" alt="Cover Page">
+  <img src="docs/assets/content.png" width="30%" alt="Content Page">
+  <img src="docs/assets/cta.png" width="30%" alt="CTA Page">
+</div>
+
+#### Style 2: Apple Glass / Minimalist (Light Theme)
+<div align="center">
+  <img src="docs/assets/cover-light.png" width="45%" alt="Light Cover Page">
+  <img src="docs/assets/content-light.png" width="45%" alt="Light Content Page">
 </div>
 
 ---
