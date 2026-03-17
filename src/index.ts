@@ -26,7 +26,13 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
         tools: [
             {
                 name: "render_vibe_deck",
-                description: "Renders an array of self-contained HTML pages into high-resolution PNG images. Each page is a complete HTML document with inline CSS. The LLM should generate visually stunning, topic-appropriate HTML/CSS for each page. Output images are saved locally and paths are returned.",
+                description: `Renders an array of HTML pages into high-resolution PNG images. 
+CRITICAL DESIGN INSTRUCTIONS FOR LLM: 
+You are a world-class visual designer. DO NOT use generic or empty white backgrounds. You MUST generate heavily styled, complete HTML/CSS for each slide tailored to the topic.
+1. Layout: width:100vw, height:100vh, hidden overflow. Use elegant padding (6-8%). Content area 85-90%.
+2. Richness (Mandatory): Every page MUST include at least 3 decorative elements: e.g., Gradient/Glassmorphism backgrounds, floating blurred orbs/shapes, subtle grid/noise textures, accent lines, large low-opacity watermark numbers, gradient text.
+3. Typography: Import Google Fonts (Noto Sans SC for Chinese, Inter for English). Titles must be huge (3.5rem+), font-weight 900, tight letter-spacing (-0.03em), line-height 1.2. Body text large (1.5rem+), line-height 1.5. Use lists, not dense paragraphs.
+4. Structure: Design a logical flow (e.g., Cover -> Problem -> Details -> CTA). Include page dots at the bottom of each slide.`,
                 inputSchema: {
                     type: "object",
                     properties: {

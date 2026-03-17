@@ -22,7 +22,7 @@ A revolutionary Model Context Protocol (MCP) plugin that turns your local LLM (C
 ## 🌟 Why Vibe Deck? (核心优势)
 
 1. **Limitless Styles (不受限的风格):** Want Cyberpunk? Minimalist Zen? Y2K? Financial professional? Just ask the AI. It writes the CSS gradients, positioning, and typography rules in real-time. 完全由大模型根据你的话语实时生成前沿的 CSS。
-2. **True Design Intelligence (真正的设计大脑):** The provided `SKILL.md` (System Prompt) trains the AI to act as an Art Director—enforcing elegant padding, perfect line-heights, dramatic typography scaling, and structured storytelling pagination (Cover → Problem → Detail → CTA). 提示词级控制，锁死了优雅的留白、行间距，确保不会出现“大白纸小干字”。
+2. **Zero-Config Intelligence (开箱即用的设计大脑):** The system prompt is **built directly into the MCP tool description**. The moment your AI loads this tool, it instantly knows how to act as an Art Director—enforcing elegant padding, perfect line-heights, dramatic typography scaling, and structured storytelling pagination. 提示词已经**内置在插件协议中**，无需每次手动喂 System Prompt，大模型接通的瞬间自动变身排版大师。
 3. **Zero Server Cost (零服务器成本):** Uses your local machine's CPU to render via Puppeteer. 借助你本地电脑的算力，通过无头浏览器直接将代码渲染成高清图片。
 
 ---
@@ -75,13 +75,14 @@ Edit your `claude_desktop_config.json`:
 
 ---
 
-## 🎨 The Secret Sauce: `SKILL.md` (绝密调教指南)
+## 🎨 Zero Configuration (零配置体验)
 
-The MCP server itself is just a highly efficient HTML-to-PNG engine. The actual "magic" lives in the [SKILL.md](./SKILL.md) file.
+**There is no `SKILL.md` to copy-paste!** 
 
-**You MUST feed the contents of `SKILL.md` to Claude/Gemini (either via a custom instruction, a project knowledge base, or directly in the chat) before asking it to generate a deck.** This teaches the AI the strict typography, layout limits, and CSS decoration techniques required to make the cards look gorgeous rather than just "text on a white background".
+The actual "magic" system prompt that teaches the LLM how to design beautiful HTML/CSS is injected intimately into the MCP Tool Definition itself. 
+You don't need to instruct the AI manually. Just load the MCP plugin and tell Claude: *"Turn this 3000-word article about productivity into a carousel deck."*
 
-*(这个 MCP 插件本身只是一个“浏览器黑盒截图机”，真正赋予大模型顶级设计师灵魂的是根目录的 `SKILL.md`。在使用本插件前，请务必把 `SKILL.md` 里的长文本发给大模型阅读，或者配置在 Project 的 Knowledge 中。)*
+*(你不需要手动复制粘贴任何由于教导 AI 排版的长文提示词。调教 AI 的设计哲学已经直接写在了 MCP 工具的 Schema Description 里。直接装上插件，甩给 Claude 一篇文章说“帮我把这个做成小红书图文”，它就会自动领悟这套排版美学！)*
 
 ## Tech Stack
 - `@modelcontextprotocol/sdk` (MCP Server implementation)
