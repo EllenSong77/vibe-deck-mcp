@@ -1,6 +1,6 @@
 # Vibe Deck MCP Server
 
-[中文说明](./README_zh.md) | English
+English | [中文说明](./README_zh.md)
 
 **Limitless Vibe. Zero Templates.**
 

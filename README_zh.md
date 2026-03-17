@@ -1,6 +1,6 @@
 # Vibe Deck MCP Server
 
-English | [中文说明](./README_zh.md)
+[English](./README.md) | 中文说明
 
 **无尽风格，告别死板模板。**
 
